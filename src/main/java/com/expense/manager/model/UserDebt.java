@@ -18,12 +18,6 @@ public class UserDebt implements Comparator<UserDebt>{
 		super();
 	}
 
-	public UserDebt(String userName, float debtAmount) {
-		super();
-		this.username = userName;
-		this.debtamount = debtAmount;
-	}
-
 	public String getUserName() {
 		return username;
 	}
